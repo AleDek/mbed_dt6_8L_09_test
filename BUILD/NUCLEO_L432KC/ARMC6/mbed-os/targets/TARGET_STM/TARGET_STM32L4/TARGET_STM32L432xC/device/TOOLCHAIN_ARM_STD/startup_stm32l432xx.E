@@ -1,9 +1,9 @@
-# 1 "./mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/device/TOOLCHAIN_ARM_STD/startup_stm32l432xx.S"
+# 1 ".\\mbed-os\\targets\\TARGET_STM\\TARGET_STM32L4\\TARGET_STM32L432xC\\device\\TOOLCHAIN_ARM_STD\\startup_stm32l432xx.S"
 # 1 "<built-in>" 1
 # 394 "<built-in>"
-# 1 "./BUILD/NUCLEO_L432KC/ARMC6/mbed_config.h" 1
+# 1 "./BUILD/NUCLEO_L432KC/ARMC6\\mbed_config.h" 1
 # 395 "<built-in>" 2
-# 1 "./mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/device/TOOLCHAIN_ARM_STD/startup_stm32l432xx.S" 2
+# 1 ".\\mbed-os\\targets\\TARGET_STM\\TARGET_STM32L4\\TARGET_STM32L432xC\\device\\TOOLCHAIN_ARM_STD\\startup_stm32l432xx.S" 2
 ;*******************************************************************************
 ;* File Name : startup_stm32l432xx.s
 ;* Author : MCD Application Team

@@ -1,4 +1,4 @@
-#! armclang -E --target=arm-arm-none-eabi -x c -mcpu=cortex-m4 -I./mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/device/TOOLCHAIN_ARM_STD
+#! armclang -E --target=arm-arm-none-eabi -x c -mcpu=cortex-m4 -I.\mbed-os\targets\TARGET_STM\TARGET_STM32L4\TARGET_STM32L432xC\device\TOOLCHAIN_ARM_STD
 ; Scatter-Loading Description File
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Copyright (c) 2015, STMicroelectronics
