@@ -21,7 +21,7 @@
 
 #include "D6T_8L_09.h"
 
-#define DEBUG_PRINT             1
+#define DEBUG_PRINT             0
 
 // Data structure
 #define NUMBER_OF_ARRAY         8 
@@ -69,6 +69,16 @@ bool D6T_8L_09::read_16bit_data(int16_t *dt)
     }
     return result;
 }
+bool D6T_8L_09::read_raw_buffer(char *dt){
+
+    char *p = dt;
+    bool result = read_data();
+    for(uint32_t i = 0; i < NUMBER_OF_DATA; i++) {
+        *p++ = _dt[i];
+    }
+    return result;
+
+}
 
 float D6T_8L_09::read_chip_temp()
 {
@@ -85,6 +95,7 @@ bool D6T_8L_09::read_data()
     _i2c.read(_addr, _dt, NUMBER_OF_DATA, false);
     bool result = check_crc();
 #if DEBUG_PRINT
+    printf("CIAO STRONZO\r\n");
     for (uint32_t i = 0; i < NUMBER_OF_DATA; i++) {
         printf("%3d, %6d\r\n", i, _dt[i]);
     }

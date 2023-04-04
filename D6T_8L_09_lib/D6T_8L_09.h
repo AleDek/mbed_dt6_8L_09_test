@@ -63,16 +63,22 @@ public:
     D6T_8L_09(I2C& p_i2c);
 
     /** Read a float type data from acc
-      * @param float type of three arry's address, e.g. 16bit data dt_i[16];
+      * @param float type of three arry's address, e.g. 16bit data dt_i[8];
       * @return CRC check result / true=passed, false=failed
       */
     bool read_16bit_data(int16_t *dt);
 
     /** Read a float type data from sensor
-      * @param float type of three arry's address, e.g. float dt_f[16];
+      * @param float type of three arry's address, e.g. float dt_f[8];
       * @return CRC check result / true=passed, false=failed
       */
     bool read_float_data(float *dt);
+
+    /** Read a float type data from sensor
+      * @param char type of three arry's address, e.g. char dt[19];
+      * @return CRC check result / true=passed, false=failed
+      */
+    bool read_raw_buffer(char *dt);
 
     /** Read sensor chip temperatue
       * @param none
