@@ -1,0 +1,131 @@
+[
+    {
+        "module": "D6T_8L_09_lib/D6T_8L_09.o",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -382,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/c_w.l",
+        "size": {
+            ".text": 10501,
+            ".data": 12,
+            ".bss": 280,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/fz_wm.l",
+        "size": {
+            ".text": 34,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/libcppabi_w.l",
+        "size": {
+            ".text": 44,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/m_wm.l",
+        "size": {
+            ".text": 48,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "anon$$obj.o",
+        "size": {
+            ".text": 32,
+            ".data": 0,
+            ".bss": 4096,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "main.o",
+        "size": {
+            ".text": 572,
+            ".data": 0,
+            ".bss": 508,
+            ".text-delta": -36,
+            ".data-delta": 0,
+            ".bss-delta": -112
+        }
+    },
+    {
+        "module": "mbed-os/drivers",
+        "size": {
+            ".text": 2694,
+            ".data": 0,
+            ".bss": 12,
+            ".text-delta": -122,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/hal",
+        "size": {
+            ".text": 2244,
+            ".data": 8,
+            ".bss": 130,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/platform",
+        "size": {
+            ".text": 7570,
+            ".data": 64,
+            ".bss": 300,
+            ".text-delta": -76,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/targets",
+        "size": {
+            ".text": 16730,
+            ".data": 8,
+            ".bss": 643,
+            ".text-delta": -202,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "summary": {
+            "static_ram": 6061,
+            "static_ram_delta": -112,
+            "total_flash": 40561,
+            "total_flash_delta": -818
+        }
+    }
+]
